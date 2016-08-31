@@ -8,10 +8,8 @@
 </ion-header>
 
 <ion-content padding>
-    
-
     <!--button full large (click)="enterVinPrompt()">Enter VIN</button-->
 
-        
-    <div id="range"></div>
+    <ion-range min="0" max="50" step="1" snaps="true" class="vertical" secondary [(ngModel)]="singleValue4"></ion-range>
+
 </ion-content>
