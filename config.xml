@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="io.massinflux.within" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Within</name>
-  <description>
-        An Within application.
+  <description>&#xD;
+        An Within application.&#xD;
     </description>
-  <author email="cristi.catea@gmail.com" href="http://massinflux.com/">
-      Cristi Citea
+  <author email="cristi.catea@gmail.com" href="http://massinflux.com/">&#xD;
+      Cristi Citea&#xD;
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -78,7 +78,7 @@
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
-  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
+  <icon src="resources\ios\icon\icon-small@3x.png"/>
   <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen.git"/>
   <plugin name="cordova-plugin-device" spec="~1.1.2"/>
   <plugin name="cordova-plugin-console" spec="~1.0.3"/>
